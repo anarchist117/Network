@@ -1,0 +1,13 @@
+# IPv6 on Dream Machine
+### Configure the IPv6 Tunnel
+```
+ip tunnel add he-ipv6 mode sit remote <server ipv4 address> local <client ipv4 address> ttl 255
+ip link set he-ipv6 up
+ip addr add <client ipv6 address> dev he-ipv6
+ip route add ::/0 dev he-ipv6
+ip -f inet6 addr
+```
+### Test connectivity
+```
+ping 2600::
+```
