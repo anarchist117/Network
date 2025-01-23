@@ -9,4 +9,4 @@ ubnt-systool fwupdate /tmp/fw.bin
 
 
 # Documentation
-https://help.ui.com/hc/en-us/articles/204910064-UniFi-Advanced-Updating-Techniques
+[UniFi - Advanced Updating Techniques](https://help.ui.com/hc/en-us/articles/204910064-UniFi-Advanced-Updating-Techniques)
