@@ -12,6 +12,10 @@ ubnt-systool fwupdate /tmp/fw.bin
 apt-get install -y /tmp/unifi-uos_sysvinit.deb
 ```
 
+# Fix broken package
+```
+dpkg --remove --force-all unifi-native
+```
 
 
 # Documentation
