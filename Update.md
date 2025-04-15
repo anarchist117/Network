@@ -1,3 +1,8 @@
+# Upload Firmware
+```
+scp \Download\fw.bin root@192.168.1.1:/tmp
+```
+
 # Firmware Update
 ```
 ubnt-systool fwupdate /tmp/fw.bin
