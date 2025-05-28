@@ -9,8 +9,14 @@ ubnt-systool fwupdate /tmp/fw.bin
 ```
 
 # Network Application
+### UDM Pro, UDM SE, UDM Max
 ```
 apt-get install -y /tmp/unifi-uos_sysvinit.deb
+```
+
+###  UDM, UDR, UDR7, Express, Express 7, UCG-Ultra, UCG-Max, and UCG-Fiber
+```
+apt-get install -y /tmp/unifi-native_sysvinit.deb
 ```
 
 # Fix broken package
